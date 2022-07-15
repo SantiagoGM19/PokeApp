@@ -1,3 +1,4 @@
+
 .poke-card {
     margin: 20px;
     padding: 30px;
@@ -72,3 +73,73 @@
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
+
+.container-change-page{
+    position: absolute;
+    left: 93%;
+    top: 98%;
+}
+
+.button-change-page{
+    position: relative;
+    background-color: white;
+    border: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button-change-page:hover{
+    cursor: pointer;
+}
+
+.search-bar{
+    position: relative;
+    margin: 50px;
+    left: 250px;
+    width: 800px;
+    height: 29px;
+    border-radius: 10px;
+    border: rgba(128, 128, 128, 0.788) solid 1px;
+    display: flex;
+}
+
+.search-bar input{
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0px;
+    height: 27px;
+    width: 95%;
+    text-align: center;
+}
+
+.search-icon{
+    height: 30px;
+    border-left: black solid 1px;
+    border-radius: 0px 10px 10px 0px;
+    width: 35px;
+    text-align: center;
+}
+
+.search-icon:hover{
+    background-color: rgba(128, 128, 128, 0.473);
+}
+
+.search-img{
+    width: 20px;
+    margin-top: 5px;
+}
+
+.button-search{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.button-search:hover{
+    cursor: pointer;
+}
+
+.body-pokemons{
+    text-align: center;
+}   
