@@ -46,7 +46,7 @@ function PokemonDetail() {
           </div>
         </div>
       </div>
-      <button onClick={() => navigate("/pokemons")} className='button-return'>
+      <button onClick={() => navigate("/")} className='button-return'>
         &lt;&lt; Return to the pokemon list
       </button>
     </div>
