@@ -25,9 +25,24 @@ nav ul li:hover{
 
 .nav-right-side{
   position: absolute;
-  left: 1200px;
-  top: 20px;
+  left: 1000px;
+  top: 15px;
   margin-top: 10px;
+  display: flex;
+}
+
+.nav-right-side button{
+  position: relative;
+  bottom: 5px;
+  margin-left: 30px;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.nav-right-side button:hover{
+  background-color: #5705aa;
+  cursor: pointer;
 }
 
 .poke-image{
@@ -55,7 +70,7 @@ a{
 
   .nav-right-side{
     position: relative;
-    left: 300px;
+    left: 150px;
   }
 }
 
@@ -73,5 +88,16 @@ a{
     left: 3px;
     top: 9px;
     font-size: smaller;
+  }
+
+  .nav-right-side button{
+    top: 60px;
+    right: 50px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 414px){
+  nav{
+    width: 100%;
   }
 }
